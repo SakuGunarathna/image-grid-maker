@@ -1,0 +1,17 @@
+.container-menu{
+    height: 100vh;
+}
+.div-text{
+    position: absolute;
+    top: 5%;
+    left: 5%
+}
+.span-text{
+    font-size: 100px;
+    font-family: 'Lucida Grande'
+}
+.div-box{
+    position: absolute;
+    top: 40%;
+    left: 2%
+}

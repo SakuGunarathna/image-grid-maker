@@ -1,0 +1,30 @@
+.container-main{
+    height: 90vh;
+    width: 60%;
+    position: absolute;
+    left: 30%;
+    /* overflow-y: scroll; */
+}
+.container-button{
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    display: grid
+}
+.text-order{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.div-no-data{
+    position:absolute;
+    left:50%;
+    top:10%
+}

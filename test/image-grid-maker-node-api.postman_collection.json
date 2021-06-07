@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "6797223e-5328-4e29-9912-23ba5b8560ac",
+		"name": "image-grid-maker-node-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-user-uploaded-images",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/v1/uploaded-images",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"uploaded-images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-user-ordered-images",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/v1/ordered-images",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"ordered-images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post-save-ordered-images",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageList\":[\r\n    {\r\n        \"imageOrder\": 1,\r\n        \"imageRef\": {\r\n            \"id\": 204900001,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 2,\r\n        \"imageRef\": {\r\n            \"id\": 204900002,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 3,\r\n        \"imageRef\": {\r\n            \"id\": 204900003,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 4,\r\n        \"imageRef\": {\r\n            \"id\": 204900004,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 5,\r\n        \"imageRef\": {\r\n            \"id\": 204900005,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 6,\r\n        \"imageRef\": {\r\n            \"id\": 204900006,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 7,\r\n        \"imageRef\": {\r\n            \"id\": 204900007,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 8,\r\n        \"imageRef\": {\r\n            \"id\": 204900008,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    },\r\n    {\r\n        \"imageOrder\": 9,\r\n        \"imageRef\": {\r\n            \"id\": 204900009,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"userName\": \"testUser\"\r\n    }\r\n]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/v1/ordered-images",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"ordered-images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patch-user-ordered-image",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageList\":[\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006bb\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900001,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 5,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006bc\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900002,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 3,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006c3\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900009,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 9,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006bf\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900005,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 1,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006bd\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900003,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 2,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006c0\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900006,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 6,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006be\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900004,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 4,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006c1\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900007,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 7,\r\n        \"__v\": 0\r\n    },\r\n    {\r\n        \"_id\": \"60bd9c63ab121e4294e006c2\",\r\n        \"ois_username\": \"testUser\",\r\n        \"ois_imageRef\": {\r\n            \"id\": 204900008,\r\n            \"message\": \"\",\r\n            \"picture\": \"\",\r\n            \"pictureMedium\": \"\",\r\n            \"pictureSmall\": \"\",\r\n            \"pictureStored\": \"\",\r\n            \"selected\": true,\r\n            \"timestamp\": 1578391381\r\n        },\r\n        \"ois_imageOrder\": 8,\r\n        \"__v\": 0\r\n    }\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/v1/ordered-images",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"ordered-images"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
